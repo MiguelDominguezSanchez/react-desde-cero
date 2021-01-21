@@ -20,6 +20,8 @@
         – https://wesbos.com/destructuring-objects
     – 10. Practicando con Objetos
     - 11. Fetch API
+    - 12. Async Await
+    - 13. Map
 
 #### Sección 3:REACT - Fundamentos
 #### Sección 4:CRUD HOOKS - Práctica
