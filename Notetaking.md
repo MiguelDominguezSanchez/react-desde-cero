@@ -18,6 +18,7 @@
     – 8. Objetos
     – 9. Destructuring JavaScript Objects
         – https://wesbos.com/destructuring-objects
+    – 10. Practicando con Objetos
 
 #### Sección 3:REACT - Fundamentos
 #### Sección 4:CRUD HOOKS - Práctica

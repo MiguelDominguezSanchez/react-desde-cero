@@ -731,3 +731,69 @@ console.log(nombre);
 Tom 
 
 // 
+
+const web = {
+  nombre: 'www.bluuweb.cl',
+  link: {
+    enace: 'www.bluuweb.cl'
+  },
+  redesSociales:{
+    youtube: {
+      enlace: 'youtube.com/bluuweb',
+      nombre: 'bluuweb yt'
+    }
+  }
+}
+console.log(web.redesSociales.youtube.enlace)
+
+// 
+
+youtube.com/bluuweb 
+
+// 
+
+const web = {
+  nombre: "www.bluuweb.cl",
+  link: {
+    enace: "www.bluuweb.cl"
+  },
+  redesSociales: {
+    youtube: {
+      enlace: "youtube.com/bluuweb",
+      nombre: "bluuweb yt"
+    },
+    facebook: {
+      enlace: "facebook.com/bluuweb",
+      nombre: "bluuweb yt"
+    }
+  }
+};
+
+const enlaceYT = web.redesSociales.youtube.enlace;
+console.log(enlaceYT);
+
+// 
+
+const web = {
+  nombre: "www.bluuweb.cl",
+  link: {
+    enace: "www.bluuweb.cl"
+  },
+  redesSociales: {
+    youtube: {
+      enlace: "youtube.com/bluuweb",
+      nombre: "bluuweb yt"
+    },
+    facebook: {
+      enlace: "facebook.com/bluuweb",
+      nombre: "bluuweb yt"
+    }
+  }
+};
+
+const enlaceYT = web.redesSociales.youtube.enlace;
+console.log(enlaceYT);
+
+const { enlace, nombre } = web.redesSociales.youtube;
+console.log(enlace)
+console.log(nombre)
