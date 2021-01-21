@@ -1218,3 +1218,71 @@ obtenerPokemones();
 (20) ["https://pokeapi.co/api/v2/pokemon/1/", "https://pokeapi.co/api/v2/pokemon/2/", "https://pokeapi.co/api/v2/pokemon/3/", "https://pokeapi.co/api/v2/pokemon/4/", "https://pokeapi.co/api/v2/pokemon/5/", "https://pokeapi.co/api/v2/pokemon/6/", "https://pokeapi.co/api/v2/pokemon/7/", "https://pokeapi.co/api/v2/pokemon/8/", "https://pokeapi.co/api/v2/pokemon/9/", "https://pokeapi.co/api/v2/pokemon/10/", …]
 
 //
+
+// async await
+const obtenerPokemones = async () => {
+  try {
+    const res = await fetch("https://pokeapi.co/api/v2/pokemon");
+    const data = await res.json();
+    // console.log(data.results);
+    const arrayNombres = data.results.filter(
+      (poke) => poke.name === `bulbasaur`
+    );
+    console.log(arrayNombres);
+  } catch (error) {
+    console.log(error);
+  }
+};
+obtenerPokemones();
+
+// 
+
+(1) [Object]
+
+0: Object
+
+name: "bulbasaur"
+
+url: "https://pokeapi.co/api/v2/pokemon/1/"
+
+// 
+
+// async await
+const obtenerPokemones = async () => {
+  try {
+    const res = await fetch("https://pokeapi.co/api/v2/pokemon");
+    const data = await res.json();
+    // console.log(data.results);
+    const arrayNombres = data.results.filter(
+      (poke) => poke.poder > 5
+    );
+    console.log(arrayNombres);
+  } catch (error) {
+    console.log(error);
+  }
+};
+obtenerPokemones();
+
+// 
+
+// async await
+const obtenerPokemones = async () => {
+  try {
+    const res = await fetch("https://pokeapi.co/api/v2/pokemon");
+    const data = await res.json();
+    // console.log(data.results);
+    const arrayNombres = data.results.filter(
+      (poke) => poke.name !== "bulbasaur"
+    );
+    console.log(arrayNombres);
+  } catch (error) {
+    console.log(error);
+  }
+};
+obtenerPokemones();
+
+// 
+
+(19) [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, …]
+
+// 

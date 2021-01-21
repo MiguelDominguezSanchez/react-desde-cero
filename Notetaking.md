@@ -22,6 +22,7 @@
     - 11. Fetch API
     - 12. Async Await
     - 13. Map
+    - 14. Filter
 
 #### Sección 3:REACT - Fundamentos
 #### Sección 4:CRUD HOOKS - Práctica
