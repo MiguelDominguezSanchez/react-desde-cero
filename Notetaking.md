@@ -13,7 +13,9 @@
 #### Sección 2:Fundamentos de Javascript (sección opcional)
 
     – 5. Var vs Let vs Const
-
+    – 6. Funciones de Flecha (Arrow Functions)
+    – 7. Template String
+    – 8. Objetos
 
 #### Sección 3:REACT - Fundamentos
 #### Sección 4:CRUD HOOKS - Práctica
