@@ -16,6 +16,8 @@
     – 6. Funciones de Flecha (Arrow Functions)
     – 7. Template String
     – 8. Objetos
+    – 9. Destructuring JavaScript Objects
+        – https://wesbos.com/destructuring-objects
 
 #### Sección 3:REACT - Fundamentos
 #### Sección 4:CRUD HOOKS - Práctica

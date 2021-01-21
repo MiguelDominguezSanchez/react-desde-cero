@@ -662,4 +662,72 @@ console.log(mascota.razas[1]);
 
 // 
 
-negro 
+negro
+
+// 
+
+// 2 – 9. Destructuring JavaScript Objects
+
+// objetos
+const mascota = {
+  nombre: "Tom",
+  edad: 10,
+  vivo: true,
+  razas: ["peludo", "negro"]
+};
+
+console.log(mascota.nombre);
+
+// 
+
+const mascota = {
+  nombre: "Tom",
+  edad: 10,
+  vivo: true,
+  razas: ["peludo", "negro"]
+};
+
+const nombreMascota = mascota.nombre;
+console.log(nombreMascota);
+
+// 
+
+Tom 
+
+// 
+
+const mascota = {
+  nombre: "Tom",
+  edad: 10,
+  vivo: true,
+  razas: ["peludo", "negro"]
+};
+
+const nombreMascota = mascota.nombre;
+
+const {edad} = mascota
+console.log(edad);
+
+// 
+
+10
+
+// 
+
+const mascota = {
+  nombre: "Tom",
+  edad: 10,
+  vivo: true,
+  razas: ["peludo", "negro"]
+};
+
+const nombreMascota = mascota.nombre;
+
+const {edad, nombre} = mascota
+console.log(nombre);
+
+// 
+
+Tom 
+
+// 
