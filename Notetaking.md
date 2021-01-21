@@ -4,7 +4,17 @@
 ### Bluuweb tutorial
 
 #### Sección 1:Introducción
+
+    – 1. Presentación del curso de React JS
+    – 2. Introducción
+            – https://bluuweb.github.io/react-udemy/
+    – 3. Visualizar en 1080p
+
 #### Sección 2:Fundamentos de Javascript (sección opcional)
+
+    – 5. Var vs Let vs Const
+
+
 #### Sección 3:REACT - Fundamentos
 #### Sección 4:CRUD HOOKS - Práctica
 #### Sección 5:PROPS - Comunicación entre compon…
