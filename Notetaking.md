@@ -30,6 +30,7 @@
     – 16. Mi primer proyecto
         – https://bluuweb.github.io/react-udemy/01-proyecto/
     – 17. Extensiones VSC
+        – https://bluuweb.github.io/react-udemy/01-proyecto/#extensiones-vsc
 
 #### Sección 4:CRUD HOOKS - Práctica
 #### Sección 5:PROPS - Comunicación entre compon…
