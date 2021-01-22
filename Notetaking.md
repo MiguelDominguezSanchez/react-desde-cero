@@ -25,6 +25,12 @@
     - 14. Filter
 
 #### Sección 3:REACT - Fundamentos
+
+    – 15. ¿Qué es React.js?
+    – 16. Mi primer proyecto
+        – https://bluuweb.github.io/react-udemy/01-proyecto/
+    – 17. Extensiones VSC
+
 #### Sección 4:CRUD HOOKS - Práctica
 #### Sección 5:PROPS - Comunicación entre compon…
 #### Sección Sección 6:REACT ROUTER - Rutas
