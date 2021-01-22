@@ -31,6 +31,8 @@
         – https://bluuweb.github.io/react-udemy/01-proyecto/
     – 17. Extensiones VSC
         – https://bluuweb.github.io/react-udemy/01-proyecto/#extensiones-vsc
+    – 18. Ejecutando proyecto
+    – 19. Limpiando proyecto
 
 #### Sección 4:CRUD HOOKS - Práctica
 #### Sección 5:PROPS - Comunicación entre compon…
